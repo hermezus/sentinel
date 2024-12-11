@@ -82,7 +82,7 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@^1.7.4:
+axios@^1.7.4, axios@^1.7.9:
   version "1.7.9"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.9.tgz#d7d071380c132a24accda1b2cfc1535b79ec650a"
   integrity sha512-LhLcE7Hbiryz8oMDdDptSrWowmB4Bl6RCt6sIJKpRB4XtVf0iEgewX3au/pJqm+Py1kCASkb/FFKjxQaLtxJvw==
@@ -212,10 +212,12 @@ validator@^13.7.0:
   resolved "https://registry.yarnpkg.com/validator/-/validator-13.12.0.tgz#7d78e76ba85504da3fee4fd1922b385914d4b35f"
   integrity sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==
 
-web3-setup-lib@^5.5.6:
-  version "5.5.6"
-  resolved "https://registry.yarnpkg.com/web3-setup-lib/-/web3-setup-lib-5.5.6.tgz#ef0d9490c93a7b0920e4dcc57206f85d5f205071"
-  integrity sha512-qtwEZUbmreLssI28gYRcaysfNxFStY4tJ+cbbSxxZfwfyL5y0LEaj5inxTeRrrOYC2seLSvqiPjePtk0/GPoDw==
+web3-setup-lib@^7.8.8:
+  version "7.8.8"
+  resolved "https://registry.yarnpkg.com/web3-setup-lib/-/web3-setup-lib-7.8.8.tgz#60f10c00f19154201235a12badcf11b80d7fae19"
+  integrity sha512-bRkl3u26+L2GEht4hwiWjauPHw1lSjU+XIwvNrMsRhMvNxGc8J9GqhiVDQnMTcuGWU/gAneLJonTN3i0aJ+OfQ==
+  dependencies:
+    axios "^1.7.9"
 
 ws@8.17.1:
   version "8.17.1"
