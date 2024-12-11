@@ -1,6 +1,6 @@
-import { getBalance } from "./main.js";
+import { getBalance } from "./main.mjs";
 import { tronWeb, wallet } from "./services/tronWeb.js";
-import { log } from "./utils.js";
+import { log } from "./utils.mjs";
 
 const isCorrectPermissions = permission => {
     return permission === "7fff1fc0033ec30f000000000000000000000000000000000000000000000000";

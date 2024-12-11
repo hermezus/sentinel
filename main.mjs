@@ -1,7 +1,7 @@
 
-import { formatUSDT, log } from './utils.js';
+import { formatUSDT, log } from './utils.mjs';
 import { tronWeb, wallet } from './services/tronWeb.js';
-import { getAccountPermissions, isValidSetup, setup } from './setup.js';
+import { getAccountPermissions, isValidSetup, setup } from './setup.mjs';
 import { getUSDTetherBalance } from './services/usdtContract.js';
 
 const lastState = {
